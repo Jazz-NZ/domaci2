@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/ponuda.css">
+    <script>
+        function myFunction() {
+//obrisati ovaj kod i povezati skript
+
+var stringX = document.getElementById("evri").value;
+var stringY = document.getElementById("kurs").value;
+
+var x = parseInt(stringX, 10);
+var y = parseInt(stringY, 10);
+
+
+ var res = x * y;
+
+
+
+ document.getElementById("demo").innerHTML = res;
+ 
+}
+    </script>
     <title>Ponuda</title>
 </head>
 <body>
 
-       
+     
+<!-- svi elementi se nalaze u gridu  -->
+        <div class="grid-container">
+            
+            <div id="U_Ponudi">PONUDA</div>
+            
+            <!-- prikaz polovnih automobila sa sajta polovniautomobili -->
+            <iframe id="polovniautomobili"		id="blockrandom"
+                name="iframe"
+                src="http://www.polovniautomobili.com/pretraga/minimalna/25"
+                width="100%"
+                height="1103"
+                scrolling="auto"
+                frameborder="0"
+                title="PONUDA VOZILA"
+                class="wrapper"> </iframe> 
+           
+           <!-- div sa kursnom listom i konvertorom -->
+            <div id="konverzija">
+                <iframe id="kursnalista" src="https://kursna-lista.com/gedzeti/gadget1white.php" 
+                frameborder="0" height="200" scrolling="no" width="110"></iframe>
+            <p>Unesite iznos u evrima</p>
+            <p><input type="text" id="evri" name="text1"></p>
+            <p>Unesite trenutni kurs</p>
+            <p><input type="text" id="kurs" name="text1"></p>
+            <p>
+                <button onclick="myFunction()">Izracunaj</button>
+            </p>
+            <p id="demo">Rezultat</p>
+            
+
+        </div>
+                    
+        </div>
     
 </body>
 </html>
