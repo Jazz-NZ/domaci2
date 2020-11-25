@@ -6,9 +6,47 @@ body {
     background-attachment: fixed;
     font-size: large;
 }
-body div {
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'headerleft header header header header headerright'
+    'menu main main main main right'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+    column-width: 500px;
+    
+  }
+  
+/* automobili koji su u ponudi */
+  #U_Ponudi{
+    
+    
+    text-align: center;
+    grid-area: header;
+    font-size: large;
+    background-color: blue;
+    font-size: 50px;
+    color: white;
+    
 
+  }
+/* lokacija elemenata za konverziju tj. kursne liste i konvertora */
+  #konverzija{
+   
+    grid-area: right;
+  }
 
+  #polovniautomobili{
 
+    grid-area: main;
+    
+  }
+/* demo je rezulatat promeniti tom */
+  #demo{
+    background-color: white;
+    width: 160px;
+    font-size: 20px;
+    text-align: justify;
 
-}
+  }
