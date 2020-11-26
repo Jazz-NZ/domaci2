@@ -3,25 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/ponuda.css">
-    <script>
-        function myFunction() {
-//obrisati ovaj kod i povezati skript
-
-var stringX = document.getElementById("evri").value;
-var stringY = document.getElementById("kurs").value;
-
-var x = parseInt(stringX, 10);
-var y = parseInt(stringY, 10);
-
-
- var res = x * y;
-
-
-
- document.getElementById("demo").innerHTML = res;
- 
-}
+    <link rel="stylesheet" type="text/css" href="../Styles/ponuda.css">
+    <script src="../Scripts/ponuda.js">
     </script>
     <title>Ponuda</title>
 </head>
@@ -31,7 +14,7 @@ var y = parseInt(stringY, 10);
 <!-- svi elementi se nalaze u gridu  -->
         <div class="grid-container">
             
-            <div id="U_Ponudi">PONUDA</div>
+            <div id="U_Ponudi">PONUDA AUTOMOBILA</div>
             
             <!-- prikaz polovnih automobila sa sajta polovniautomobili -->
             <iframe id="polovniautomobili"		id="blockrandom"
