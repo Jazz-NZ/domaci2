@@ -26,10 +26,5 @@ function konvertor() {
     
         
     }
-
-    
-    
-    
-    
-     
+ 
     }
