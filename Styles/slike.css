@@ -1,6 +1,5 @@
 body {
     background-color: white;
-
 }
 
 .roditelj img {
@@ -30,5 +29,6 @@ h1 {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 15px;
     background-color: lightgray;
 }
