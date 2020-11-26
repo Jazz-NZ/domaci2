@@ -20,11 +20,11 @@ body {
   
 /* automobili koji su u ponudi */
   #U_Ponudi{
-    
+    font-style: normal;
     
     text-align: center;
     grid-area: header;
-    font-size: large;
+    
     background-color: blue;
     font-size: 50px;
     color: white;
