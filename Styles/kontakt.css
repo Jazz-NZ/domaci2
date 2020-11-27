@@ -10,7 +10,6 @@ body {
 
 #centar1 {
     width: 45%;
-    height: 1000px;
     margin-left: 10%;
     border-radius: 15px;
     padding-left: 3%;
@@ -24,7 +23,6 @@ body {
 
 #centar2 {
     width: 30%;
-    height: 1000px;
     margin-left: 5%;
     margin-right: 10%;
     border-radius: 15px;
@@ -43,6 +41,7 @@ h2 {
 
 h3 {
     padding-left: 8%;
+    padding-right: 8%;
     color: rgb(45, 39, 39);
 }
 
@@ -55,4 +54,10 @@ hr {
 p {
     padding-left: 8%;
     color: black;
+}
+
+#link {
+    height: 200px;
+    width: 80%;
+    padding-bottom: 20px;
 }
