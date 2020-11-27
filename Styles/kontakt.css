@@ -1,3 +1,58 @@
 body {
     background-color: white;
 }
+
+.roditelj {
+    display: flex;
+    justify-content: center;
+
+}
+
+#centar1 {
+    width: 45%;
+    height: 1000px;
+    margin-left: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.roditelj img {
+    height: 20px;
+    width: 20px;
+    padding-left: 5%;
+}
+
+#centar2 {
+    width: 30%;
+    height: 1000px;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+h1 {
+    color: rgb(45, 39, 39);
+}
+
+h2 {
+    padding-left: 5%;
+    color: rgb(45, 39, 39);
+
+}
+
+h3 {
+    padding-left: 8%;
+    color: rgb(45, 39, 39);
+}
+
+hr {
+    width: 99%;
+    color: black;
+
+}
+
+p {
+    padding-left: 8%;
+    color: black;
+}
