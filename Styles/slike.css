@@ -21,7 +21,7 @@ h1 {
     padding-left: 45px;
     padding-top: 10px;
     font-family: 'Times New Roman', ;
-    color: grey;
+    color: rgb(45, 39, 39);
 
 }
 
@@ -37,6 +37,6 @@ h1 {
     background-color: rgb(92, 198, 233);
     border-radius: 5px;
     margin-right: 5%;
-    margin-left: 68%;
-    color: grey;
+    margin-left: 70%;
+    color: rgb(45, 39, 39);
 }
