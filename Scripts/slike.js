@@ -6,12 +6,10 @@ $("img").click(function(){
     {
 $(this).css({"height" : "300px","width" : "400px"});
 }
-else if(brojac%3==2){
+else{
 $(this).css({"height": "150px","width":"200px"});
 }
-else{
-    $(this).css({"height": "450px","width":"600px"});
-}
+
 brojac++;
 });
 });
