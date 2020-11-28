@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fon Car</title>
     <link rel="stylesheet" href="../Styles/kontakt.css" >
+    <script src="../Scripts/kontakt.js"></script>
 </head>
 <body>
     <div class="roditelj">
@@ -19,14 +20,17 @@
 <hr>
 <p>* Obavezno polje</p><br>
 <form>
-*Ime <input type="text" name="ime" placeholder="Unesite vase ime" id="kratki_unos"><br><br>
-*Email <input type="email" name="email" placeholder="Unesite vasu email adresu" id="kratki_unos"><br><br>
- Naslov poruke <input type="text" placeholder="Unesite naslov poruke" id="kratki_unos"><br><br>
-Svrha poruke <br><div id="razmak"><input type="radio" name="razlog" value="1">Pohvala
-            <input type="radio" name="razlog" value="2">Prituzba</div><br><br>
+*Ime <input type="text" name="ime" placeholder="Unesite vase ime" id="kratki_unos_ime"><br><br>
+*Email <input type="email" name="email" placeholder="Unesite vasu email adresu" id="kratki_unos_email"><br><br>
+*Naslov poruke <input type="text" name="naslovPoruke" placeholder="Unesite naslov poruke" id="kratki_unos_naslov"><br><br>
+Svrha poruke <br><div id="razmak">
+            <input type="radio" name="razlog" value="1">Pohvala
+            <input type="radio" name="razlog" value="2">Prituzba
+            <input type="radio" name="razlog" value="3">Informisanje
+        </div><br><br>
 <textarea name="poruka" placeholder="Unesite vasu poruku" id="duza_poruka"></textarea>
 <br><br><br>
-<input type="submit" name="potvrda" value="POSALJI" id="potvrda">
+<button type="submit" id="potvrda" onclick="upozorenje()">POSALJI</button>
 </form>
 
 
