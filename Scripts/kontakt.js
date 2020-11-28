@@ -12,3 +12,9 @@ function upozorenje() {
 
   
 }
+
+function noviProzor(link){
+
+    window.open(link);
+
+}
