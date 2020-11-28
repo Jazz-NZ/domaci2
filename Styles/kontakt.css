@@ -61,3 +61,29 @@ p {
     width: 80%;
     padding-bottom: 20px;
 }
+
+#kratki_unos {
+    margin-right: 40%;
+    width: 35%;
+    position: relative;
+    float: right;
+    border-radius: 2px;
+    border: 2px grey;
+}
+
+#duza_poruka {
+    margin-left: 24%;
+    position: relative;
+    float: left;
+    border-radius: 2px;
+    border: 2px grey;
+    height: 150px;
+    width: 40%;
+}
+
+#razmak {
+    margin-left: 24%;
+    position: relative;
+    float: left;
+
+}
