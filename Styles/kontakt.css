@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .roditelj {
@@ -109,4 +109,22 @@ p {
     position: relative;
     float: right;
     margin-right: 20%;
+}
+
+#headerID {
+    width: 80%;
+    height: 200px;
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#poljeMenija {
+    height: 50px;
+    width: 70%;
+    background-color: greenyellow;
+    position: relative;
+    float: right;
 }
