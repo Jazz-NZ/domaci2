@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+}
+
+.roditelj {
+    display: flex;
+    justify-content: center;
+
+}
+
+#centar1 {
+    width: 45%;
+    margin-left: 10%;
+    border-radius: 15px;
+    padding-left: 3%;
+    background-color: lightgray;
+}
+
+.roditelj img {
+    height: 20px;
+    width: 20px;
+}
+
+#centar2 {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+h1 {
+    color: rgb(45, 39, 39);
+}
+
+h2 {
+    padding-left: 5%;
+    color: rgb(45, 39, 39);
+
+}
+
+h3 {
+    padding-left: 8%;
+    padding-right: 8%;
+    color: rgb(45, 39, 39);
+}
+
+hr {
+    width: 99%;
+    color: black;
+
+}
+
+p {
+    padding-left: 8%;
+    color: black;
+}
+
+#link {
+    height: 200px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+#kratki_unos_ime {
+    margin-right: 40%;
+    width: 35%;
+    position: relative;
+    float: right;
+    border-radius: 2px;
+    border: 2px grey;
+}
+
+#kratki_unos_email {
+    margin-right: 40%;
+    width: 35%;
+    position: relative;
+    float: right;
+    border-radius: 2px;
+    border: 2px grey;
+}
+
+#kratki_unos_naslov {
+    margin-right: 40%;
+    width: 35%;
+    position: relative;
+    float: right;
+    border-radius: 2px;
+    border: 2px grey;
+}
+
+#duza_poruka {
+    margin-left: 24%;
+    position: relative;
+    float: left;
+    border-radius: 2px;
+    border: 2px grey;
+    height: 150px;
+    width: 40%;
+}
+
+#razmak {
+    margin-left: 24%;
+    position: relative;
+    float: left;
+}
+
+#potvrda {
+    position: relative;
+    float: right;
+    margin-right: 20%;
+}
+
+#headerID {
+    width: 80%;
+    height: 200px;
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#poljeMenija {
+    height: 50px;
+    width: 70%;
+    background-color: greenyellow;
+    position: relative;
+    float: right;
+}
