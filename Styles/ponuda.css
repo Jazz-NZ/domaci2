@@ -62,13 +62,13 @@ body {
 }
   .meni {
     
-    width:50%;
+    width:30%;
     /* float:center;  */
     list-style: none;
     margin-top: 30px;
     /* margin-left: 500px; */
     margin-left: auto;
-    margin-right: auto;
+     margin-right: 5%; 
   }
   .meni li {
     display: inline-block;
