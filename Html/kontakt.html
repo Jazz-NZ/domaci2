@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fon Car</title>
+    <link rel="stylesheet" href="../Styles/kontakt.css" >
+    <script src="../Scripts/kontakt.js"></script>
+</head>
+<header>
+<div id="headerID">
+    <img src="../Slike/logo.jpg " height="200px">
+    <h1 id="naslov">Dobrodosli na sajt FON CAR-a</h1>
+    <center id="desni">
+        <div id="poljeMenija"> <a href="index.html">Pocetna</a></div>
+        <div id="poljeMenija"> <a href="ponuda.html">Ponuda</a></div>
+        <div id="poljeMenija"> <a href="slike.html">Slike</a></div>
+        <div id="poljeMenija"> <a href="kontakt.html">Kontakt</a></div>
+    </center>
+</div>
+</header>
+<body>
+    <div class="roditelj">
+   <div id="centar1">
+<h1>KONTAKT</h1>
+<h2>Kontakt:</h2>
+<img src="../Slike/telefon.png"> +381 65 432 1000; +381 66 543 2100;<br>
+<img src="../Slike/lokacija.png">   Zamisljena adresa bb, 11050, Beograd<br>
+<img src="../Slike/mail.png">  foncar@gmail.com<br>
+<h2>Kontakt forma:</h2>
+<h3>Kontaktirajte nas putem e-poste:</h3>
+<hr>
+<p>* Obavezno polje</p><br>
+<form>
+*Ime <input type="text" name="ime" placeholder="Unesite vase ime" id="kratki_unos_ime"><br><br>
+*Email <input type="email" name="email" placeholder="Unesite vasu email adresu" id="kratki_unos_email"><br><br>
+*Naslov poruke <input type="text" name="naslovPoruke" placeholder="Unesite naslov poruke" id="kratki_unos_naslov"><br><br>
+Svrha poruke <br><div id="razmak">
+            <input type="radio" name="razlog" value="1">Pohvala
+            <input type="radio" name="razlog" value="2">Prituzba
+            <input type="radio" name="razlog" value="3">Informisanje
+        </div><br><br>
+<textarea name="poruka" placeholder="Unesite vasu poruku" id="duza_poruka"></textarea>
+<br><br><br>
+<button type="submit" id="potvrda" onclick="upozorenje()">POSALJI</button>
+</form>
+</div>
+   <div id="centar2">
+    <h3>Mozete pronaci nase naloge i na sledecim sajtovima:</h3>
+    <center><a href="https://www.kupujemprodajem.com/"><b><p>Kupujemprodajem.com</p></b></a>
+   <img src="../Slike/kupujemprodajem.png" id="link" onclick="noviProzor('https://www.kupujemprodajem.com/')">
+    </center>
+    <center><a href="https://www.polovniautomobili.com/"><b><p>Polovni automobili</p></b></a>
+    <img src="../Slike/polovniautomobilipng.png" id="link" onclick="noviProzor('https://www.polovniautomobili.com/')">
+    </center>
+    <center><a href="https://www.olx.ba/"><b><p>OLX.ba</p></b></a>
+    <img src="../Slike/OLX.jpg" id="link" onclick="noviProzor('https://www.olx.ba/')">
+    </center>
+</div>
+</div>
+</body>
+</html>
