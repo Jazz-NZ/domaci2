@@ -1,6 +1,5 @@
 body {
     background-color: white;
-
 }
 
 .roditelj img {
@@ -19,10 +18,10 @@ body {
 }
 
 h1 {
-    padding-left: 10px;
+    padding-left: 45px;
     padding-top: 10px;
     font-family: 'Times New Roman', ;
-    color: black;
+    color: rgb(45, 39, 39);
 
 }
 
@@ -30,5 +29,14 @@ h1 {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 15px;
     background-color: lightgray;
+}
+
+#opis {
+    background-color: rgb(92, 198, 233);
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 70%;
+    color: rgb(45, 39, 39);
 }
