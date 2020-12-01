@@ -36,7 +36,7 @@ function konvertor() {
 
         }
         else{
-            alert("Unesite samo pozitivne brojeve")
+            alert("Unesite samo brojeve")
         }
     
         
@@ -50,10 +50,10 @@ function konvertor() {
  }
  $(document).ready(function(){
      $(".btn1").click(function(){
-        $("#demo").hide();
+        $("#konverzija").hide();
      });
      $(".btn2").click(function(){
-        $("#demo").show();
+        $("#konverzija").show();
      });
 
  });
