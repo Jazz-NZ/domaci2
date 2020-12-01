@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 .grid-container {
     display: grid;
