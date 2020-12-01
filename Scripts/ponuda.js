@@ -30,13 +30,13 @@ function konvertor() {
 
             }
             else{
-                alert("Unesi brojevi moraju biti veci od 0")
+                alert("Uneti brojevi moraju biti veci od 0")
             }
            
 
         }
         else{
-            alert("Unesite samo brojeve")
+            alert("Unesite samo pozitivne brojeve")
         }
     
         
@@ -47,4 +47,13 @@ function konvertor() {
       }
       
  
-    }
+ }
+ $(document).ready(function(){
+     $(".btn1").click(function(){
+        $("#demo").hide();
+     });
+     $(".btn2").click(function(){
+        $("#demo").show();
+     });
+
+ });
