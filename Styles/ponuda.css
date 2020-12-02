@@ -53,16 +53,16 @@ body {
   }
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url(https://i.postimg.cc/vBSqPK4x/1.jpg);
-    height: 100vh;
+     
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-	position: relative;
+  position: relative;
+  height: 100px;
 }
   .meni {
     
-    width:30%;
+    width:39%;
     /* float:center;  */
     list-style: none;
     margin-top: 30px;
@@ -90,9 +90,11 @@ body {
   }
   .logo img {
       
-      width: 140%;
-      padding: 5px 20px;
-      margin-left:-100px;
-      margin-top:-50px ;
+       
+     
+      width: 90px;
+      height: 90px;
+      padding-left: 20px;
+
   }
   
