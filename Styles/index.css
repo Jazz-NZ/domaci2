@@ -1,31 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
-    
+	font-family: 'Poppins', sans-serif;
+
 }
-.pocetna{
-    width: 1170px;
+
+.pocetna {
+	width: 1170px;
 	margin: auto;
 }
+
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url(https://i.postimg.cc/vBSqPK4x/1.jpg);
-    height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url(https://i.postimg.cc/vBSqPK4x/1.jpg);
+	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
 }
-h4{
+
+h4 {
 	text-align: justify;
 	color: whitesmoke;
 	text-transform: uppercase;
 	font-size: 40px;
 }
-footer{
+
+footer {
 	text-align: justify;
 	width: 100vw;
 	display: block;
@@ -34,14 +39,18 @@ footer{
 	box-sizing: border-box;
 	background-color: black;
 }
-.inner_footer{
-	display:block;	
+
+.inner_footer {
+	display: block;
 	margin: 0 auto;
-	width: 1100px;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 80%;
 	height: 100%;
 	background-color: #181818;
 }
-p{
+
+p {
 	color: whitesmoke;
 }
 
@@ -50,31 +59,39 @@ p{
 	list-style: none;
 	margin-top: 30px;
 }
+
 .meni li {
 	display: inline-block;
 }
+
 .meni li a {
-	color:whitesmoke;
+	color: whitesmoke;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: poppins;
 	font-size: 16px;
 	text-transform: uppercase;
 }
+
 .meni li a:hover {
 	background: #fff;
 	color: #333;
 }
+
 .logo {
-    float: left;
+	float: left;
 }
+
 .logo img {
-    
-    width: 140%;
-    padding: 5px 20px;
-    margin-left:-100px;
-    margin-top:-50px ;
+
+
+
+	width: 90px;
+	height: 90px;
+	padding-left: 20px;
+
 }
+
 .naslov {
 	position: absolute;
 	width: 600px;
@@ -82,16 +99,19 @@ p{
 	margin: 20% 30%;
 	text-align: center;
 }
-.naslov h1{
+
+.naslov h1 {
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 60px;
 }
-.naslov  h1 span {
+
+.naslov h1 span {
 	color: #00fecb;
 }
-.naslov a{
+
+.naslov a {
 	border: 1px solid #fff;
 	padding: 10px 25px;
 	text-decoration: none;
@@ -101,6 +121,7 @@ p{
 	display: inline-block;
 	color: #fff;
 }
+
 .naslov a:hover {
 	background: #fff;
 	color: #333;
