@@ -1,100 +1,110 @@
 body {
-    background-image: url(../slike/ponudaback.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-size: large;
-    font-family: 'Poppins', sans-serif;
+  background-image: url(../Slike/slikaPocetne.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
 }
+
 .grid-container {
-    display: grid;
-    grid-template-areas:
+  display: grid;
+  grid-template-areas:
     'headerleft header header header header headerright'
     'menu main main main main right'
     'menu footer footer footer footer footer';
-    grid-gap: 10px;
-    padding: 10px;
-    column-width: 500px;
-    
-  }
-  
+  grid-gap: 10px;
+  padding: 10px;
+  column-width: 500px;
+
+}
+
 /* automobili koji su u ponudi */
-  #U_Ponudi{
-    font-style: normal;
-    
-    text-align: center;
-    grid-area: header;
-    
-    background-color: blue;
-    font-size: 50px;
-    color: white;
-    
+#U_Ponudi {
+  font-style: normal;
 
-  }
+  text-align: center;
+  grid-area: header;
+
+  background-color: blue;
+  font-size: 50px;
+  color: white;
+
+
+}
+
 /* lokacija elemenata za konverziju tj. kursne liste i konvertora */
-  #konverzija{
-   
-    grid-area: right;
-  }
+#konverzija {
+  background-color: lightgray;
+  grid-area: right;
+  padding-left: 5%;
+}
 
-  #polovniautomobili{
+#polovniautomobili {
 
-    grid-area: main;
-    
-  }
+  grid-area: main;
+
+}
+
 /* demo je rezulatat promeniti tom */
-  #demo{
-    background-color: white;
-    width: 160px;
-    font-size: 20px;
-    text-align: justify;
+#demo {
+  background-color: white;
+  width: 160px;
+  font-size: 20px;
+  text-align: justify;
 
-  }
-  header {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+
+    -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
   position: relative;
   height: 100px;
 }
-  .meni {
-    
-    width:39%;
-    /* float:center;  */
-    list-style: none;
-    margin-top: 30px;
-    /* margin-left: 500px; */
-    margin-left: auto;
-     margin-right: 5%; 
-  }
-  .meni li {
-    display: inline-block;
-  }
-  .meni li a {
-    color:whitesmoke;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: poppins;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  .meni li a:hover {
-    background: #fff;
-    color: #333;
-  }
-  .logo {
-      float: left;
-  }
-  .logo img {
-      
-       
-     
-      width: 90px;
-      height: 90px;
-      padding-left: 20px;
 
-  }
-  
+.meni {
+
+  width: 39%;
+  /* float:center;  */
+  list-style: none;
+  margin-top: 30px;
+  /* margin-left: 500px; */
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.meni li {
+  display: inline-block;
+}
+
+.meni li a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.meni li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+
+
+
+  width: 90px;
+  height: 90px;
+  padding-left: 20px;
+
+}
