@@ -8,12 +8,12 @@ function upozorenje() {
     if(stringX==="" || stringY==="" || stringZ=="" || stringP==""){
         alert("Popunite sva obavezna polja");
     }
-
+// Uzimanje vrednosti iz svakog obaveznog polja za unos i provera da li je unos prazno polje.Ako je uneseno prazno polje izbacuje se alert.
   
 }
 
 function noviProzor(link){
 
     window.open(link);
-
+// otvaranje linka u novom prozoru na poziv funkcije
 }
