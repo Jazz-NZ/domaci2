@@ -11,10 +11,11 @@ body {
 .roditelj {
     display: flex;
     justify-content: center;
-
+    /*obezbedjivanje responzivnosti dva div prostora koriscenjem flex-a */
 }
 
 #centar1 {
+    /* prvi div */
     width: 45%;
     margin-left: 10%;
     border-radius: 15px;
@@ -28,6 +29,7 @@ body {
 }
 
 #centar2 {
+    /* drugi div */
     width: 30%;
     margin-left: 5%;
     margin-right: 10%;
@@ -118,9 +120,6 @@ p {
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-
-        -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -161,9 +160,6 @@ header {
 }
 
 .logo img {
-
-
-
     width: 90px;
     height: 90px;
     padding-left: 20px;
