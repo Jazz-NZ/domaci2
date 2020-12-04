@@ -52,12 +52,11 @@ function konvertor() {
       
  
  }
+ //sakvira ceo div u kome se nalazi konverzija i kursna lista
  $(document).ready(function(){
      $(".btn1").click(function(){
         $("#konverzija").hide();
      });
-     $(".btn2").click(function(){
-        $("#konverzija").show();
-     });
+     
 
  });
