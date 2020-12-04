@@ -11,8 +11,10 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>$(function(){$(".dialog").dialog();});</script>
+    <!-- ubacivanje jquery plugin-a koji daje uputstvo pri unosu podataka u kontakt formu -->
 </head>
 <header>
+  <!-- meni koji je prisutan na svim stranama -->
     <div class="pocetna">
         <div class="logo">
           <a href="../Html/index.html">  <img src="../Slike/logo.jpg">
@@ -28,17 +30,23 @@
 </header> 
 <body>
     <div class="roditelj">
+      <!-- klasa kojom se obezbedjuje flex uredjivanje -->
    <div id="centar1">
 <h1>KONTAKT</h1>
 <h2>Kontakt:</h2>
 <img src="../Slike/telefon.png"> +381 65 432 1000; +381 66 543 2100;<br>
 <img src="../Slike/lokacija.png">   Zamisljena adresa bb, 11050, Beograd<br>
 <img src="../Slike/mail.png">  foncar@gmail.com<br>
+<div class="dialog" title="Upozorenje">
+  <p>Popunite sva obavezna polja u kontakt formi ako zelite da nas kontaktirate!</p>
+ </div>
+ <!-- kod koji predstavlja uputstvo za unos podataka u formu preko jquery plugin-a "dialog" -->
 <h2>Kontakt forma:</h2>
 <h3>Kontaktirajte nas putem e-poste:</h3>
 <hr>
 <p>* Obavezno polje</p><br>
 <form>
+  <!-- forma za unos podataka  -->
 *Ime <input type="text" name="ime" placeholder="Unesite vase ime" id="kratki_unos_ime"><br><br>
 *Email <input type="email" name="email" placeholder="Unesite vasu email adresu" id="kratki_unos_email"><br><br>
 *Naslov poruke <input type="text" name="naslovPoruke" placeholder="Unesite naslov poruke" id="kratki_unos_naslov"><br><br>
@@ -52,6 +60,8 @@ Svrha poruke <br><div id="razmak">
 <button type="submit" id="potvrda" onclick="upozorenje()">POSALJI</button>
 </form>
 </div>
+<!-- sledeci div prostor je prostor na kome se nalaze organizacije sa kojima FonCar ostvaruje saradnju i 
+klikom na sliku otvara se sajt te organizacije u novom tabu a klikom na naziv organizacije otvara se u postojecem -->
    <div id="centar2">
     <h3>Mozete pronaci nase naloge i na sledecim sajtovima:</h3>
     <center><a href="https://www.kupujemprodajem.com/"><b><p>Kupujem-prodajem</p></b></a>
@@ -64,10 +74,6 @@ Svrha poruke <br><div id="razmak">
     <img src="../Slike/OLX.jpg" id="link" onclick="noviProzor('https://www.olx.ba/')">
     </center>
 </div>
-</div>
-
-<div class="dialog" title="Upozorenje">
- <p>Popunite sva obavezna polja u kontakt formi ako zelite da nas kontaktirate!</p>
 </div>
 </body>
 </html>
