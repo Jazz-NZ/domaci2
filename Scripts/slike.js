@@ -2,7 +2,7 @@ $(document).ready(function(){
     let brojac=0;
 $("img").click(function(){
     
-    if(brojac%3==0)
+    if(brojac%2==0)
     {
 $(this).css({"height" : "300px","width" : "400px"});
 }
