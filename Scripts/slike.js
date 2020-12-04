@@ -13,3 +13,4 @@ $(this).css({"height": "150px","width":"200px"});
 brojac++;
 });
 });
+// funkcija koja broji koliko je puta kliknuto na sliku i na svaki parni klik je smanjuje a na neparni povecava duplo
