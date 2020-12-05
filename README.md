@@ -2,7 +2,6 @@ Sajt na kome se prikazuje ponuda polovnih automobila
 
 Link ka github projektu https://github.com/Jazz-NZ/domaci2
 
-Napisite karakteristicne delove za vase delove
 
 STRANICA POCETNA:
 U index.html nalazi se header se menijem koji referencira ostale stranice sajta.Kratak opis karakteristika ovih stranica dat je u tekstu ispod.Prikazan je heading auto placa pod nazivom FonCar. U footeru nalazi se kratak pregled usluga koje se nude.U okviru klase "pocetna" prisutan je i logo veb stranice.
